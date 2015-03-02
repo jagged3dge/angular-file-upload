@@ -167,7 +167,7 @@ module
 
                 angular.forEach(items, function(item) {
                     item._prepareToUploading();
-                    items[0].upload();
+                    item.upload();
                 });
             };
             /**
