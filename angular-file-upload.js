@@ -167,8 +167,8 @@ module
 
                 angular.forEach(items, function(item) {
                     item._prepareToUploading();
+                    item.upload();
                 });
-                items[0].upload();
             };
             /**
              * Cancels all uploads
